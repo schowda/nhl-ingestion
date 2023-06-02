@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist",
+        "allowJs": true,
+        "target": "esnext",
+        "module": "ESNext",
+        "rootDir": "src",
+        "noImplicitAny": false,
+        "strictNullChecks": true,
+        "useUnknownInCatchVariables": true,
+        "moduleResolution":"nodenext",
+        "esModuleInterop": true
+    },
+    "exclude": [
+        "node_modules",
+        "dist"
+    ]
+}

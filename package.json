@@ -1,0 +1,28 @@
+{
+  "name": "nhl-ingestion",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "rm  -rf dist && npm run build && node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.29.4",
+    "mysql2": "^3.3.3",
+    "node-cron": "^3.0.2",
+    "node-fetch": "^3.3.1",
+    "node-schedule": "^2.1.1",
+    "save": "^2.9.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.2.5",
+    "pug": "^3.0.2",
+    "typescript": "^5.0.4"
+  }
+}
